@@ -1,0 +1,27 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bfefff"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivityeain" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#bfefff"
+        android:text="Earth"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#bfefff"
+        android:text="                 THE EARTH is the third of the eight planets that orbit the Sun.It is the largest and denser rocky planet, and the only known to support to life.About 70 percent of the Earth&apos;s surface is covered by water,which is not found in liquuid form of the surface of another planet.There are four main Layers:INNER CORE,OUTER CORE,MANTLE AND THE CRUST.At the heart of the planet,the solid inner core has temperature anout 6600 degree celsius.The heat from the inner core causes material in the form in the molten outer core and mantle to circulate in convection currents.It is thought that these convection currents generate the Earth&apos;s magnetic field which extends into space as the magnetosphere."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="italic" />
+
+</TableLayout>

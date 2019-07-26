@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enter"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityexpl" >
+
+    <Button
+        android:id="@+id/meb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jub"
+        android:layout_alignTop="@+id/veb"
+        android:layout_marginTop="24dp"
+        android:text="Mercury" />
+
+    <Button
+        android:id="@+id/urb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/neplb"
+        android:layout_alignBottom="@+id/neplb"
+        android:layout_alignRight="@+id/mab"
+        android:text="Uranus" />
+
+    <Button
+        android:id="@+id/aboutb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/sunb"
+        android:layout_marginBottom="34dp"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/neplb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sab"
+        android:layout_marginTop="26dp"
+        android:text="Neptune,Pluto" />
+
+    <Button
+        android:id="@+id/jub"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/neplb"
+        android:layout_below="@+id/meb"
+        android:layout_marginTop="22dp"
+        android:text="Jupiter" />
+
+    <Button
+        android:id="@+id/mab"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jub"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/veb"
+        android:text="Mars" />
+
+    <Button
+        android:id="@+id/veb"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/eab"
+        android:layout_marginTop="25dp"
+        android:text="Venus" />
+
+    <Button
+        android:id="@+id/sunb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/jub"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/neplb"
+        android:text="SUN" />
+
+    <Button
+        android:id="@+id/sab"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/jub"
+        android:layout_alignBottom="@+id/jub"
+        android:layout_alignLeft="@+id/mab"
+        android:text="Saturn" />
+
+    <Button
+        android:id="@+id/eab"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/sunb"
+        android:layout_below="@+id/neplb"
+        android:layout_marginTop="34dp"
+        android:text="Earth" />
+
+</RelativeLayout>

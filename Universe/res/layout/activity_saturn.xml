@@ -1,0 +1,80 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      SATURN"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:id="@+id/saturnimage"
+    android:src="@drawable/saturnp"
+    android:onClick="saturnimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/saturncontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+   android:text="  Saturn is the sixth planet from the sun.It is a gas giant almost as big as Jupiter, with an equatorial diameter of about 120500 kilometers.Saturn is thought to consist of small core of rock and ice surrounded by an inner mantle of metallic of liquid hydrogen that merges into a gaseous amosphere.Saturn's clouds form belts and zones similar to those on Jupiter, but obscured by overlying haze.Storms and eddies seen as red or white ovals occur in the clouds.Saturn has an extremely thin but wids system of rings that is less than one kilometer thick but extends outwards to about 420000 kilometers from the planet's surface.The main ring's comprise thosands of narrow ringlets, each made of icy lumps that range in the size from tiny particles to chunks several meters across.In 2009 the huge dust ring was discovered 6 kilometers (4 million miles) beyond the main system.Saturn has more than 60 known moons, some of which orbit inside the rings and are thought to exert a gravitational influence on the shapes of the rings.Unusually, seven of the moons are co-orbital - they share an orbit with another moon.Astronomers believe that such co-orbital moons may have originated from a single satellit e that broke up. "
+   android:textStyle="italic"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is 1.433 billion kilometers
+        Radius 58232 kilometers and Mass 4.869e24 kg 
+        Did u know:Saturn has such a low density that it is less dense than water, meaning it cloud float."
+        android:textStyle="italic|bold"
+        
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Moons of saturn:Titan,Enceladus,Mimas,Iapetus
+        Titan:It is the largest moon of the saturn. It is the only known to have a dense atmosphere, and the only object in the space, other than Earth where clear Evidence of stable bodies of surface liquid has been found.
+        Enceladus:It is the sixth largest moon of the saturn, it about 500 kilometers in diameter, about a tenth of that of saturn's largest moon, Titan.
+        Mimas:Mimas also designated saturn I, is a moon of saturn which was discovered in 1789 by William Herschel. It is named after Mimas a son of Gaia in Greek mythology.
+        Iapeteus:Iapeteus or occasionally Japetus, is the third largest natural satellite of saturn eleventh largest in the SolarSystem and the largest body in the Solar System not to be in hydrostatic equillibrium."
+        android:textStyle="italic|bold"
+        
+        />
+</LinearLayout>
+</ScrollView>

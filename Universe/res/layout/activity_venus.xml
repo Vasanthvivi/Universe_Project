@@ -1,0 +1,62 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      VENUS"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/venusimage"
+    android:src="@drawable/venusp"
+    android:onClick="venusimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/venuscontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+   android:text="   Venus is a rocky planet and second planet from the Sun.Venus spins slowly backwards as it orbits the Sun,causing its rotational period to be the longest in the solar system, at about 245 earth days.It is slightly smaller than earth and probably has a similar internal structure,consisting of semi solid metal core,surrounded by a rocky mantle and crust.Venus is the brightest object in the sky after the sun and Moon because its cloud's reflect sunlight strongly.The main component of the atmosphere is carbon dioxide that traps heat in a greenhouse effect far stronger than that on Earth.As a result venus is the hottest planet, with a maximum surface temperature of about 480 degree celsius.The thick cloud layers contain droplets of sulphuric acid and or driven around the planet by winds at speeds of upto 320 kms/hour.Although the planet takes 243 earth days to rotate once,the high speed winds cause the clouds to circle the planet in only 4 earth days.The high temperature,acidic clouds, and enormous atmospheric pressure(about 90 times greater at the surface than that on earth) make the environment extremely hostly.However, probs have managed to land on venus and photogrph its dry,dusty surface.The Venusian surface has also been mapped by probs with radar equipment that can through the cloud layers.Such radar maps reveal at terrain with cratters,mountains ,volcanos, and areas where craters have been covered by plains of solidified volcanic lava.There are two large highland regions called aphrodite terra and ishtar terra. "
+        android:textStyle="italic"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is 108.2 million kilometers
+        Diameter 12103.6 kilometers and Mass 4.869e24 kg 
+        Did u know:Detailed observations of Venus was made by Mayan astronomers as early as 650AD"
+        android:textStyle="italic|bold"
+        
+        />
+</LinearLayout>
+</ScrollView>

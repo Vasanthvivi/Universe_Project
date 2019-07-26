@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#c4c4c4"
+    
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="40dp"
+        android:text="Welcome to the Universe"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="23dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="25dp"
+        android:text="The Universe is about 13.7 billion years old.At its beginning it looked nothing like it does today.Yet evetything in today&amp;apos;s Universe did exist in some form back then.It all started with big bang,a kind of explosion that would not only go on to produce all the matter in the Universe but also marked the start of time."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="38dp"
+        android:text="All the elements in Earth,including all the elements in your body were produced in stars."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

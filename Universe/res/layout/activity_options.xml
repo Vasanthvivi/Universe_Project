@@ -1,0 +1,31 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/optionstap"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="#B6F6B6"
+        android:text="Tap to Explore"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/venus"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Venus"
+        android:background="#B6F6B6"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/marsopt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Mars"
+        android:background="#B6F6B6"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</TableLayout>

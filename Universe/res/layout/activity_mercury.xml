@@ -1,0 +1,65 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      MERCURY"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:id="@+id/mercuryimage"
+    android:src="@drawable/mercurypl"
+    android:onClick="mercuryimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mercurycontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+   android:text="Mercury:Mercury is the nearest planet to the sun,orbiting at an  average distance of about 58 million kilometers. Because it is the closest planet to the sun, it moves faster than any other planet, travelling at an average speed of nearly 48 km/s and completing an orbit
+in just under 88 days.Mercury is very small and rocky.Most of the surface has been heavily cratered by the impact of meteorites,although there are also smooth, sparsely cratered lava-covered  plains.The Caloris Basin is the largest crater,measuring about  1300 kms across.It is thought to have been formed when a 60 km diameter asteroid hit the planet, and is surrounded by concentric rings of mountains thrown up b the impact. The surface also has many cliff like ridges (called rupes) that are thought to have been formed when the hot core of the young planet cooled and shrank about 4 billion years ago, buckling the planet's surface in the process.The planet takes 59 earth days to complete one rotation. As a result a solar day(sunrise to sunrise) on mercury is about 176 earth days.Mercury has extreme surface temperatures ranging from a maximum of 430 degree celsius on the sunlit side to -170 degree celsius on the dark side.At nightfall,the temperature drops very quickly because the planet's atmosphere is almost non-existent.It consists only of minute amounts of helium and hdrogen captured from the solar wind, plus traces of other gases.
+"
+   android:textStyle="italic"
+  />"
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is 57.91 million kilometers
+        Radius 2440 kilometers and Mass 3.285*10^23 kg 
+        Did u know:The reason mercury exhibits such an enormous difference is because the length of its sidereal day is comparable to the length of its year."
+        android:textStyle="italic|bold"
+        
+        />
+</LinearLayout>
+</ScrollView>

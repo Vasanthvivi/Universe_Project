@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Earth" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2EBF2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/earthtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="      EARTH"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/earthimage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="earthimageclick"
+            android:src="@drawable/earthp" />
+
+        <TextView
+            android:id="@+id/contentearth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="The Earth is the third of the eight planets that orbits the Sun. It is the largest and densest rocky planet , and the only known to suppote life.About 70 percent of the Earth&apos;s surface is covered by water, which is not found in liquid form on the surface of any other planet.There are four main layers the inner core,the outer core, the mantle, and the crust.At the heart of the planet the solid inner core has a temperature of about 6600 degree celsius. The heat from the inner core causes material in the molten outer core and mantle to circulate in convection currents.It is thought that these convection currents generate the earth&apos;s magnetic field, which extends into space as the magnetosphere. The earth&apos;s atmosphere helps screen out some of the harmful radiation from the Sun, stops most meteroids from reaching the planet&apos;s surface, and traps enough heat to prevent extremes of cold.The Earth has one natural satellite, the Moon.which is thought to have formed when a huge asteroid impacted Earth in the distant past.
+   The earth is divided into several layers which have distince chemical and seismic properties.(depths in km) 0-40 -->Crust 40-400 -->UpperMantle 400-650 -->TransitionRegion 650-2700 -->LowerMantle 2700-2890 -->D&apos;&apos; Layer 2890-5150 -->Outercore 5150-6378 -->Innercore"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Distance from the sun is 149.6 million kilometers
+        Diameter 12756.3  kilometers and Mass 5.972e24 kg 
+        Did u know:The Earth was a lifeless planet for a long time"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/earthtvd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="The Moon is the Earth's only natural satellite.It is relatively large for a moon, with a diameter of about 3,470 kms just over a quarter that of the earth.The moon takes the same time to rotate on its axis as it takes to orbit the earth(27.3 days) and so the same side (the near side) always faces us.However the amount of of the surface we can see- the phase of the moon-depends on how much of the near sids is in sunlight.The moon is the dry and barren, with negligible atmosphere and water.It consists mainly of solid rock, although its core may contain molten rock or iron.The surface is dusty, with highlands covered in craters caused by meteorite impacts  and lowlands in which large craters have been filled by solidified lava to form dark areas called maria or seas.Maria occur mainly on the near side, which has a thinner crust than the fair side.Many of the craters are rimmed by mountain ranges that form the crater walls and can be thousands of meters high. "
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</ScrollView>

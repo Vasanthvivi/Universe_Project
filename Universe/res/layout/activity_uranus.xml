@@ -1,0 +1,81 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      URANUS"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/uranusimage"
+    android:src="@drawable/venusp"
+    android:onClick="uranusimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/uranuscontent"
+       
+        android:textSize="25dp"
+       
+        android:typeface="sans"
+   android:text=" Uranus is the 7th planet from the sun and the third largest,with a diameter of about 51000 kilometers.It is thought to consist of a dense mixture of different types of ice and gas around a solid core.Its atmoshphere contains traces of methane, giving a planet a blue green hue,and the temperature at the cloud tops is about 210 degree celsius.Uranus is the most featureless planet to have been closely observed: only a few icy clouds of methane have been so far.Uranus is unique among the planets in that its axis of rotation lies close to its orbital plane.As a result of its strongly tilted rotational axis.Uranus rolls on its side along its orital path around the Sun, whereas other planets spin more or less upright.Uranus is encircled by main rings that consists of rocks interspersed with dust lanes and too distant outer rings made of dust.The rings contain some of the darkest matter in the Solar System and are extremely narrow making them difficult to detect:most of them are less than 10 kms wide whereas Saturn's rings are thousands of kilometers in width.There are 27 known uranian moons, all of which are icy and most of which are further out than the rings.The 13 inner moons are small and dark, with diameters of less than 160 kms, and the five major moons are between about 470 and 1600 kilometers in diameter.The major moons have a  wide variety of surface features.Miranda has the most varied surface, with cratered areas broken up by huge ridges and cliffs 20 kilometers high. Beyond these are nine much more distant moons with diameters less than 150 kilometer. "
+   android:textStyle="italic"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        android:typeface="sans"
+        android:text="Distance from the sun is 2.871 billion kilometers
+        Diameter 31760 miles and Mass 8.681*10^25 
+        Did u know:Unlike other planets of the solar system , uranus is tilted so far that it essentially orbits the sun on its side, with the axis of its spin nearly pointing at the star. This unusual orientation might be due to a collision with a plane-size body , or several small bodies, soon after it was formed."
+        android:textStyle="italic|bold"
+        
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Moons of Uranus:Umbriel,Ariel,Miranda,Titania
+        Umbriel:Umbriel is a moon of Uranus found on October 24,1851 by,Willianm Lassell.It was found at the same time as Ariel and named after a character in Alexander Pope's poem The Rape of the Lock.
+        Miranda:It also designated Uranus V,is the smallest and innermost of Uranus's five round satellites   .It was discovered by Gerard  Kuiper on 16th February 1948 at McDonald Observatory and named after Miranda from William Shakesphere's play the Tempest.
+        Ariel:Ariel is the fourth largest of the moons of Uranus.Ariel orbits and rotates in the equatorial plane of Uranus , which is almost perpendicular to the orbit of Uranus and so has an extreme seasonal cycle.
+        Titania:Titania is the largest of the moons of Uranus and the eighth largest moon in the Solar System  at a diameter of 1578 kilometers.
+        
+        "
+        android:textStyle="italic|bold"
+        
+        />
+</LinearLayout>
+</ScrollView>

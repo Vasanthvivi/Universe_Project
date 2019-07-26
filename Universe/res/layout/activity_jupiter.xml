@@ -1,0 +1,134 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      JUPITER"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/jupiterimage"
+    android:src="@drawable/jupiterp"
+    android:onClick="jupiterimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/jupitercontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+   android:text=" Jupiter is the fifith planet from the Sun and the innermost of the four giant planets.It is the largest and the most massive planet, with a diameter about 11 times that of the earth and a mass about 2.5 times the combined mass of the seven other planets.Jupiter is thought to have a small rocky core surrounded by an inner mantle of metallic hydrogen.Outside the inner mantle is an outer mantle of liquid hydrogen and helium that merges into the gaseous atmosphere.Jupiter's rapid rate of rotation causes the clouds in its atmoshphere  to form belts and zones that encircle the planet parallel to the equator.Belts are dark,low lying relatively warm cloud layers , and zones are bright , high altitude ,cooler cloud layers.Within the belts and zones turbulence causes the formation of cloud features such as white ovals and red spots,both of which are huge storm systems.The most prominent cloud feature is a storm called the GreatRedSpot, which consists of a spiralling column of a clouds three times wider than the earth that rises about eight kilometers above the upper cloud layers. Jupiter has a thin ,faint,main ring,inside which is a tenuous halo ring of tiny particles.Beynd the main ring's outer edge is a broad and faint two part gossamaur ring.There are 63 known jovian moons.The four largest moons(called Galileans)are Ganymede,Callisto,Io and Europa.Ganymede and Callisto are cratered and icy.Europa is smooth and icy and is thought to have a subsurface water ocean.Io is covered in bright red,orange and yellow splotches.This coloring is caused by sulphurus material from active volcanos that shoot plumes of lava hundreds of kiometers above the surface. "
+   android:textStyle="italic"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+      
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is  million kilometers
+        Radius 69,911  kilometers and Mass  1.898*10^27 kg 
+        Did u know:A century ago it measured 24854 miles(40000 kilometers) across but its actually shrinking."
+        android:textStyle="italic|bold"
+        
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Jupiter has 53 named moons and another 26 awaiting confirmation of discovery.
+        Moons of Jupiter:Europa,Ganymede,Io,Callisto"
+        android:textStyle="italic|bold"
+        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Europa is the smallest of the four Galilean moons orbiting jupiter, and the sixth-closest to the planet.It is also the sixth-largest moon in the SolarSystem."
+        android:textStyle="italic|bold"
+        
+        />
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Ganymede is the largest and most massive moon of Jupiter and in the SolarSystem.The ninth largest object in the SolarSystem,it is in the largest without a substantial atmosphere."
+        android:textStyle="italic|bold"
+        
+        />
+       <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Io is the innermost of the four Galilean moons of the planet Jupiter.It is the fourth largest moon has the highest density of all the moons, and has the least amount of water of any known astronomical object in the SolarSystem."
+        android:textStyle="italic|bold"
+        
+        />
+       <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Callisto is the second largest moon of the Jupiter, after Ganymede. It is the third largest moon in the solar system after Ganymede and Saturn's largest moon Titan, and the largest object in the solar system not to be properly differentiated."
+        android:textStyle="italic|bold"
+        
+        />
+       
+</LinearLayout>
+</ScrollView>

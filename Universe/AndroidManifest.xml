@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vivi.universe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vivi.universe.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vivi.universe.MainActivity1"
+            android:label="@string/title_activity_main_activity1" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Earth"
+            android:label="@string/title_activity_earth" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Options"
+            android:label="@string/title_activity_options" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.MainActivityeain"
+            android:label="@string/title_activity_main_activityeain" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Venus"
+            android:label="@string/title_activity_venus" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Mars"
+            android:label="@string/title_activity_mars" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Exploreoptions"
+            android:label="@string/title_activity_exploreoptions" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Jupiter"
+            android:label="@string/title_activity_jupiter" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Saturn"
+            android:label="@string/title_activity_saturn" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Mercury"
+            android:label="@string/title_activity_mercury" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Uranus"
+            android:label="@string/title_activity_uranus" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.NeptuneAndPluto"
+            android:label="@string/title_activity_neptune_and_pluto" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Sun"
+            android:label="@string/title_activity_sun" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.Explorr"
+            android:label="@string/title_activity_explorr" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.MainActivityexpl"
+            android:label="@string/title_activity_main_activityexpl" >
+        </activity>
+        <activity
+            android:name="com.vivi.universe.MainActivityex"
+            android:label="@string/title_activity_main_activityex" >
+        </activity>
+    </application>
+
+</manifest>

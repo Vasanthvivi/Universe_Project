@@ -1,0 +1,134 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      Neptune"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:id="@+id/neptuneimage"
+    android:src="@drawable/neptunep"
+    android:onClick="neptuneimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/neptunecontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+   android:text=" Neptuneis the furthest planet from the sun,at an average distance of about 4500 million kilometers.Neptune is the smallest of the
+giant planets and is thought to consist of a small rocky core surrounded by a mixture of liquids and gases.Several transient cloud features have been observed in its atmosphere.The largest of these were the great dark spot , which was as wide as the earth , the small 
+dark spot , and the scooter.The great and small dark spots were huge storms that were swept around the planet by winds of about 2000 kilometers per hour.The scooter was a large area of cirrus cloud.Neptune has 6 tenuous rings and 13 known moons.Triton is the largest 
+Neptunian  moon and the coldest object in the solar system , with a temperatre of -240 degree celsius.Unlike most moons in the solar system,triton orbits its mother planet in the opposite direction to the planet's rotation . The region extending out from Neptune's orbit  
+is populated kuiper belt objects and dwarf planets. They make a dough-nut shaped belt called the kuiper belt.The kuiper belt objects are a mix of rock and ice , irregular in shape and less than  1000 kms across. The largest dwarf planets , which include pluto are almost round 
+bodies. Pluto was the first object discovered beyond Neptune and was considered a planet until the dwarf planet category was introduced in 2006. It is made of rock and ice and is 2274 kilometers across. It has three known moons the largest, charon ,is about 
+half pluto's size and the two probably had common origin. 
+Moons:Triton , S/2004 N1 , Proteus , Laomedia
+Triton:Triton is the largest natural satellite of the planet Neptune , and the first Neptunian moon to be discovered.It was 
+discovered on October 10,1846 , by English astronomer William Lassell.
+S/2004 N1:It is the small moon of the planet Neptune , about 18 kilometers in diameter , which orbits the planet in just under earth 
+day.Its discovery on 1 July 2013 increased Neptune's retinue of known satellites to fourteen.
+Proteus:Also known as Neptune V||| , is the second largest inner satellite.Discovered by voyager 2 spacecraft in 1989 , it is named after 
+proteus , the shape changing sea god of Greek mythology.
+Laomedeia:Also known as Neptune X|| , is a prograde irregular satellite of Neptune. It was discoverd by Mathew J. Holman ,etal , on 
+August 13,2002. Before the announcement of its name on February 3, 2007 it was known as S/2002 N 3"
+   android:textStyle="italic"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is 4.495 billion kilometers
+        Radius 24,622 kilometers and Mass 1.024*10^26 kg 
+        Did u know:An almost identical spot emerged in Neptune's northern hemisphere.
+        "
+        android:textStyle="italic|bold"
+        
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+       
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      Pluto(Dwarf planet)"
+        android:textStyle="italic|bold"
+        
+        />
+     <ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:id="@+id/plutoimage"
+    android:src="@drawable/plutop"
+    android:onClick="plutoimageclick"
+    />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/plutocontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text=" It is a dwarf planet in the kuiper belt , a ring of bodies beyond Neptune.It was the first kuiper belt object or be discovered , Pluto  was discovered by Clyde Tambaugh in 1930 and was originally considered to be ninth planet from the sun.
+        Moons:Charon,Hydra,Kerboros,Nix
+        Charon:Charon is also known as pluto I , is the largest of the five known natural satellites of the dwarf planet Pluto. It has a mean radius of 606 km.
+        Hydra:Hydra is the outermost known moon of pluto.It was discovered along with Nix in June 2005 , and was visited along with pluto by New Horizons in July 2015, Hydra's surface is probably covered with water ice.
+        Kerboros:It is the small natural satellite of pluto, about 12 km in the longest dimension.It was the fourth moon of Pluto to be discovered and its existence was announced on 20 July 2011.
+        Nix:It is a natural satellite of Pluto.It was discovered along with Hydra in June 2005.It was imaged along with pluto and its other moons by the New Horizons spacecraft as it flew by the Pluto system in July 2015."
+        android:textStyle="italic"
+        
+        />
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is 3.67 billion kilometers
+        Radius 1188 kilometers and Mass 1.31*10^22 kg 
+        Did u know:It's really its own new class of bodies."
+        android:textStyle="italic|bold"
+        
+        />
+</LinearLayout>
+</ScrollView>

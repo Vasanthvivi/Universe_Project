@@ -1,0 +1,62 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      SUN(also Star)"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:id="@+id/sunimage"
+    android:src="@drawable/sun"
+    android:onClick="sumimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/suncontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+   android:text="The sun is a star center at the center of the solar system.It is about 5 billion years old and will continue to shine as it does now for about another five billion years.The Sun  is a yellow main sequence star about 1.4 million kilometers in diameter.It consists almost entirely of hydrogen and helium.In the sun's core hydrogen is covered to helium by nuclear fusion, releasing energy in the process.The enrgy travels from the core, through the radiative and convective zones, to the zones , to the photosphere(visible surface), where it leaves the sun in the form of heat and light. On the photosphere there are often dark relatively cool areas called sunspots, which usually appears in pairs or groups and are caused by the cooling effect of the magnetic field.Other types of solar actvity are flares, which are usually associated with sunspots, and prominences.Flares are sudden discharges of high energy radiation and atomic particles.Prominences are huge loops or filaments of gas extending into the solar system atmosphere, some last for hours others for months.Beyond the photosphere is the chromosphere(inner atmosphere) and the extremely rarified corona(outer atmosphere) which extends millions of kilometers into space.Tiny particles that escape from the corona give rise to the solar wind , which streams through space at hundreds of kilometers per second.The chromosphere and corona can be seen from the earth when the sun is totally eclipsed by the moon. "
+   android:textStyle="italic"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is 108.2 million kilometers
+        Diameter 12103.6 kilometers and Mass 4.869e24 kg 
+        Did u know:Detailed observations of Venus was made by Mayan astronomers as early as 650AD"
+        android:textStyle="italic|bold"
+        
+        />
+</LinearLayout>
+</ScrollView>

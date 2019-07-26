@@ -1,0 +1,112 @@
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:background="#B2EBF2"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="      MARS"
+        android:textStyle="italic|bold"
+        
+        />
+<ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:src="@drawable/mars"
+    android:id="@+id/marsimage"
+    android:onClick="marsimageclick"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/marscontent"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+   android:text=" Mars(Greek:Ares), known as the red planet,is the fourth planet from the sun and the outermost rocky planet.In the 19th century astronomers first observed what where thought to be signs of the life of mars.These signs inlcuded apparent canal like lines on the surface, and dark patches that were thought to be vegetation.It is known that the (canals) or an optical illusion ,and the dark patches or areas were the red dust that covers most of the planet has been blown away.The fine dust particles are often whipped up by winds into dust storms that occasionly obscured almost all the surface.Residual fine dust in the atmoshpere gives the martian sky a pinkish hue.The northern hemishphere of mars has many large plains formed of solidified volcanic lava, various the southern hemishphere has many craters and large impact basins.There are also several huge extince volcanos , including Olympus mons,which ,at 600 kms across and 25kms high, is the largest known volcano in the solar system.The surface also has many canyons and branching channels.The Canyons were formed by moments of the surface crust , but channels are thought to have been formed by flowing water that has now dried up.The martian atmosphere is much thinner than earth's with only a few clouds and morning mists.Mars has two tiny irregularly shaped moons called phobos and deimos.Their small size indicates that they may be asteroids that have been captured by the gravity of mars.  "
+        android:textStyle="italic"
+    />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/t1"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Distance from the sun is 227940000(1.52AU) kilometers
+        Diameter 6794 kilometers and Mass 6.4219e23 kg 
+        Did u know:In 1609 Italian astronome Galileo Galelei observed mars with a primitive telescope to become the FATHER OF OBSERVATIONAL ASTRONOMY"
+        android:textColorHighlight="#9ff982"
+        android:textStyle="italic|bold"
+        
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/moonsofmars"
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="Moons of Mars"
+        android:textStyle="italic|bold"
+        
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="DEIMOS:It is the smallest and outer of the two natural satellites of the planet mars,the other being phobos.Deimos has a mean radius of 6.2 km and takes 30.3 hours to orbit Mars.
+        Distance to Earth-->77.79 million kilometers Gravity:0.003 m/s(s)
+        Surface area:495.1548 sq km  
+        Did you know:Deimos was discovered on august 11,1877 by Asaph Hall"
+        android:textStyle="italic|bold"
+        
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        
+       
+        android:textSize="25dp"
+        
+        android:typeface="sans"
+        android:text="PHOBOS:It is the innermost and larger of the two natural satellites of Mars. 
+        Distance to Earth:77.79 million km and Radius-->11km 
+        SurfaceArea:1548.3 kmsq
+        Did you know:Phobos is only 16 by 13 by 11 miles in diameter(27/22/18km)"
+        
+        android:textStyle="italic|bold"
+        
+        />
+</LinearLayout>
+</ScrollView>
